@@ -1,0 +1,33 @@
+.list {
+  margin: 12px;
+}
+
+.tag-button {
+  border: solid 1px #f3aa4e;
+  border-radius: 18px;
+  background-color: transparent;
+  color: #f1f5f9;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.selected-button {
+  background-color: #f3aa4e;
+  border: none;
+}
+
+.no-task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.no-task {
+  color: #f1f5f9;
+  font-size: x-large;
+}
